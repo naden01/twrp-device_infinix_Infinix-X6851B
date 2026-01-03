@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/infinix/Infinix-X6851B
+DEVICE_PATH := device/infinix/X6851B
 
 # Inherit from mt6855-common
 include device/transsion/mt6855-common/BoardConfigCommon.mk
