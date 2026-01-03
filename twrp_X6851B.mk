@@ -5,14 +5,14 @@
 #
 
 # Inherit from Infinix-X6851B device
-$(call inherit-product, device/infinix/Infinix-X6851B/device.mk)
+$(call inherit-product, device/infinix/X6851B/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Product Specifics
 PRODUCT_NAME := twrp_X6851B
-PRODUCT_DEVICE := Infinix-X6851B
+PRODUCT_DEVICE := X6851B
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X6851B
 PRODUCT_MANUFACTURER := INFINIX
