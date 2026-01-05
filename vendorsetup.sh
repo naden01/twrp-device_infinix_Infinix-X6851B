@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # common
-git clone https://github.com/RamaBP-Recovery-Project/twrp-device_transsion_mt6855-common.git -b fox_12.1-tranos15 device/transsion/mt6895-common
+git clone https://github.com/RamaBP-Recovery-Project/twrp-device_transsion_mt6855-common.git -b fox_12.1-tranos15 device/transsion/mt6855-common
 
 export FOX_ASH_IS_BASH=1
 export FOX_DELETE_AROMAFM=1
