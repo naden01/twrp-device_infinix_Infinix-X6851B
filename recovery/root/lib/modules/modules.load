@@ -1,4 +1,3 @@
-leds-aw22xxx.ko
 mkp.ko
 bootprof.ko
 dbgtop-drm.ko
@@ -43,7 +42,6 @@ spmi-mtk-pmif.ko
 mt6363-regulator.ko
 mt6369-regulator.ko
 et5904.ko
-devinfo.ko
 mtk-smi.ko
 mtk-smi-dbg.ko
 mtk-icc-core.ko
@@ -62,9 +60,9 @@ cmdq-platform-mt6855.ko
 cmdq_helper_inf.ko
 rt4831a_drv.ko
 mtk-mml.ko
+devinfo.ko
 mtk_panel_ext.ko
 nt37703a_fhdp_dsi_vdo_tm_tm_120hz_x6851.ko
-rm69220_fhdp_dsi_vdo_dsc_csot_csot_120hz_x6851.ko
 mediatek-drm.ko
 aee_rs.ko
 mmprofile.ko
@@ -153,8 +151,8 @@ mt6369-accdet.ko
 rt_pd_manager.ko
 mt6375-battery.ko
 transsion_battery_class.ko
-bq27z561.ko
-battery_manager.ko
+bq27z561_ti.ko
+battery_manager_ti.ko
 tran_auto_test.ko
 pwm-mtk-disp.ko
 leds-mtk.ko
@@ -167,6 +165,7 @@ mtk-dvfsrc-helper.ko
 mtk-dvfsrc-devfreq.ko
 clk-chk-mt6855.ko
 pmic_lbat_service.ko
+pmic_lvsys_notify.ko
 reset-ti-syscon.ko
 mtk_slbc.ko
 vcp_status.ko
@@ -191,6 +190,7 @@ tran_rhi.ko
 cache-parity.ko
 sec.ko
 mtk-socinfo.ko
+leds-aw22xxx.ko
 tran_rhi.ko
 tkv.ko
 tkv_recovery.ko

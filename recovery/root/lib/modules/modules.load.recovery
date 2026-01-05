@@ -1,4 +1,3 @@
-leds-aw22xxx.ko
 mkp.ko
 bootprof.ko
 dbgtop-drm.ko
@@ -46,7 +45,6 @@ mt6363-regulator.ko
 mt6369-regulator.ko
 richtap_haptic_hv.ko
 et5904.ko
-devinfo.ko
 mtk-smi.ko
 mtk-smi-dbg.ko
 mtk-icc-core.ko
@@ -66,9 +64,9 @@ cmdq_helper_inf.ko
 rt4831a_drv.ko
 mtk-ssc.ko
 mtk-mml.ko
+devinfo.ko
 mtk_panel_ext.ko
 nt37703a_fhdp_dsi_vdo_tm_tm_120hz_x6851.ko
-rm69220_fhdp_dsi_vdo_dsc_csot_csot_120hz_x6851.ko
 mediatek-drm.ko
 aee_rs.ko
 mmprofile.ko
@@ -79,7 +77,6 @@ phy-mtk-tphy.ko
 musb_boost.ko
 musb_hdrc.ko
 musb_main.ko
-st21nfc.ko
 spmi-mtk-mpu.ko
 mtk-spmi-pmic-adc.ko
 sd_tray.ko
@@ -131,6 +128,7 @@ mtk_pd_adapter.ko
 wireless_mt5728.ko
 wireless_ta.ko
 tran_otg.ko
+tran_perf_util.ko
 mtk_pep40.ko
 mtk_pep45.ko
 mtk_pep50.ko
@@ -158,8 +156,8 @@ mtk_charger_framework.ko
 rt_pd_manager.ko
 mt6375-battery.ko
 transsion_battery_class.ko
-bq27z561.ko
-battery_manager.ko
+bq27z561_ti.ko
+battery_manager_ti.ko
 tran_auto_test.ko
 pwm-mtk-disp.ko
 leds-mtk.ko
@@ -172,6 +170,7 @@ clk-chk-mt6855.ko
 mtk_battery_oc_throttling.ko
 mtk_low_battery_throttling.ko
 pmic_lbat_service.ko
+pmic_lvsys_notify.ko
 mtk_dynamic_loading_throttling.ko
 mtk_bp_thl.ko
 mtk_pbm.ko
@@ -201,12 +200,15 @@ mtk-mminfra-imax.ko
 mtk_rpmsg_mbox.ko
 mtk-mbox.ko
 mtk_tinysys_ipi.ko
+adaptive-ts.ko
+focaltech_ft3683g.ko
 irq-dbg.ko
 uload_ind.ko
 load_track.ko
 tran_expand_key.ko
 tran_fp.ko
 tran_rhi.ko
+st21nfc.ko
 transsion_tranlog.ko
 clk-disable-unused.ko
 mtk-pm-domain-disable-unused.ko
@@ -216,6 +218,7 @@ arm_dsu_pmu.ko
 mtk-socinfo.ko
 emi-mpu-hook-v1.ko
 transsion_touch.ko
+leds-aw22xxx.ko
 fair.ko
 tran_rhi.ko
 tkv.ko
